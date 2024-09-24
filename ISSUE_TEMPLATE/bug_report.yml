@@ -2,8 +2,8 @@ name: Bug Report
 description: If something isn't working as it should, please file a report here.
 title: "[BUG]: "
 labels: ["bug"]
-projects:
-assignees:
+projects: []
+assignees: []
 body:
   - type: markdown
     attributes:
@@ -24,7 +24,8 @@ body:
     attributes:
       label: Similar issues
       description: If you found any potentially similar issues, please link them
-        required: false
+    validations:
+      required: false
   - type: input
     attributes:
       label: Overview
