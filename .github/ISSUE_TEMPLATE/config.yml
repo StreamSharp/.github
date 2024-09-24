@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Feature Requests
-    url: ../../../discussions/categories/ideas
+    url: /../../../discussions/categories/ideas
     about: Please put your Feature Requests in the Ideas section of the Github Repo you're working with
