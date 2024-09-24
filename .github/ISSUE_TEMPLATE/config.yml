@@ -3,5 +3,3 @@ contact_links:
   - name: Feature Requests
     url: ../../../discussions/categories/ideas
     about: Please put your Feature Requests in the Ideas section of the Github Repo you're working with
-  - name: Report a Vulnerability
-    about: Please report security vulnerabilities using the Security tab of the repo in question.
