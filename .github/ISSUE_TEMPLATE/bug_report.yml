@@ -1,5 +1,5 @@
 name: Bug Report
-description: If something isn't working as it should, please file a report here.
+description: If something isn't working as it should, please file a report here. If you have a feature request or vulnerability report, clicking the template will give you information on how to approach this.
 title: "[BUG]: "
 labels: ["bug"]
 projects: []
@@ -11,6 +11,13 @@ body:
         Thanks for taking the time to fill out this bug report!
 
         In order to simplify the process of gathering issues, we have a standardised form for you to fill out.
+  - type: markdown
+    attributes:
+      value: |
+        If you are reporting a **security vulnerability** please visit the security advisories for the selected repo
+
+        If you have a **feature request** please visit the ideas category in the discussions page of the repo in question.
+        If your suggestion is for a **new helper module** please visit the StreamSharp.Base repo and post the suggestion in the *Helper Module Requests* category.
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
