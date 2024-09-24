@@ -39,6 +39,14 @@ By contributing to any StreamSharp repository, you agree that your contributions
 
 Please make sure you understand the terms of the MIT License before contributing.
 
+## Encouragement for Helper Modules
+
+We encourage all contributors to use the [MIT License](https://opensource.org/licenses/MIT) for any helper modules they create outside of our official organization repositories. Using the MIT License ensures compatibility and ease of collaboration, making it easier for others to benefit from your work.
+
+If you need a template for your LICENSE file, you can find our license [here](https://github.com/StreamSharp/StreamSharp.Base/blob/main/LICENSE). Please remember to change the name of the copyright holder to reflect your details.
+
+Thank you for supporting the StreamSharp ecosystem!
+
 ## Code of Conduct
 
 We are committed to maintaining a welcoming, inclusive, and respectful community. All contributors are expected to adhere to the [Contributor Code of Conduct](https://github.com/StreamSharp/.github/blob/main/CODE_OF_CONDUCT.md). Please review the code of conduct before contributing.
