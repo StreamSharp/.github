@@ -1,5 +1,9 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Feature Requests
-    url: /../../../discussions/categories/ideas
-    about: Please put your Feature Requests in the Ideas section of the Github Repo you're working with
+
+# Functionality won't be implemented until after I find a way to get the dynamic URL working
+# contact_links:
+#   - name: Feature Requests
+#     url: /../../../discussions/categories/ideas
+#     about: Please put your Feature Requests in the Ideas section of the Github Repo you're working with
+#   - name: Report a Vulnerability
+#     about: Please report security vulnerabilities using the Security tab of the repo in question.
