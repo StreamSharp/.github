@@ -12,12 +12,6 @@ and orientation.
 We pledge to act and interact in ways that contribute to an open, welcoming,
 diverse, inclusive, and healthy community.
 
-## Licensing of Contributions
-
-By contributing to this project, you agree to license your contributions under the [MIT License](https://opensource.org/licenses/MIT). This ensures that all contributions maintain compatibility with the project's goals and make it easier for others to use and build upon your work.
-
-If you have questions about the licensing terms, please refer to the [MIT License](https://opensource.org/licenses/MIT).
-
 ## Our Standards
 
 Examples of behavior that contributes to a positive environment for our
