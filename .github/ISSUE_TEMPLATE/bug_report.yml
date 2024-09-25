@@ -72,12 +72,12 @@ body:
       description: |
         Please tell us the environment you're using when facing this issue. Include the versions of any helper modules you're using
 
-        Please use the format **OS Ver**: [version info] - see the example text for more info. Each item should go on a separate line.
-      render: markdown
+        Please use the format OS Ver: [version info] - see the example text for more info. Each item should go on a separate line.
       value: |
-            - **OS Ver**: 20.04
-            - **IDE**: Visual Studio Community 2022
-            - **StreamSharp Ver**: 1.0.0.0)
+          - OS Ver:
+          - IDE:
+          - StreamSharp Ver:
+      render: markdown
     validations:
       required: true
   - type: textarea
