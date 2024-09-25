@@ -1,0 +1,81 @@
+name: Enhancement Request
+description: If an existing feature is lacking in some way, please submit an issue here. New features and new helper method requests go elsewhere, click through to find out more.
+title: "[ENHANCEMENT]:"
+labels: ["enhancement"]
+projects: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        In order to simplify the process of gathering enhancement requests, we have a standardised form for you to fill out.
+
+        If you have a **new feature request** (not an enhancement to a current feature) please visit the ideas category in the discussions page of the repo in question.
+        If your suggestion is for a **new helper module** please visit the StreamSharp.Base repo and post the suggestion in the *Helper Module Requests* category in the discussions.
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues and found potentially similar issues
+      - label: I have searched the existing issues and found nothing remotely like this issue
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Similar issues
+      description: If you found any potentially similar issues, please link them
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Brief overview
+      description: In one or two sentences, what does the enhancement set out to achieve?
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Relation to problem?
+      description: Does your enhancement request relate to a problem?
+      options:
+        - "Yes"
+        - "No"
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Give more details
+      description: If you selected yes to it being related to a problem, please give us more details. If this isn't related to a problem please type 'N/A'
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternative Solutions
+      description: Please give details of any alternative solutions you have considered
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are trying to resolve!
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Code of Conduct & Contributing
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it. The Contributing Guidelines help ensure a consistent code structure.
+      options:
+        - label: I agree to follow this project's Code of Conduct (link is in the helpful resources section)
+          required: true
+        - label: I agree to follow this project's Contributing Guidelines (link is in the helpful resources section)
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this enhancement request form, and for your interest in improving our products!

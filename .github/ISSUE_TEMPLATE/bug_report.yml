@@ -1,5 +1,5 @@
 name: Bug Report
-description: If something isn't working as it should, please file a report here. If you have a feature request or vulnerability report, clicking the template will give you information on how to approach this.
+description: If something isn't working as it should, please file a report here. If you have a vulnerability report, clicking the template will give you information on how to approach this.
 title: "[BUG]: "
 labels: ["bug"]
 projects: []
@@ -8,11 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        In order to simplify the process of gathering issues, we have a standardised form for you to fill out.
+        In order to simplify the process of gathering bug reports, we have a standardised form for you to fill out.
 
         If you are reporting a **security vulnerability** please visit the security advisories for the selected repo
-        If you have a **feature request** please visit the ideas category in the discussions page of the repo in question.
-        If your suggestion is for a **new helper module** please visit the StreamSharp.Base repo and post the suggestion in the *Helper Module Requests* category.
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
@@ -25,9 +23,9 @@ body:
   - type: input
     attributes:
       label: Similar issues
-      description: If you found any potentially similar issues, please link them
+      description: If you found any potentially similar issues, please link them. Otherwise, please type 'N/A'
     validations:
-      required: false
+      required: true
   - type: input
     attributes:
       label: Overview
@@ -63,7 +61,7 @@ body:
   - type: dropdown
     attributes:
       label: OS
-      description: Please tell us which OS you're using
+      description: Please tell us which OS you're using while developing plugins with StreamSharp
       options:
         - Windows
         - Mac
@@ -72,14 +70,15 @@ body:
     attributes:
       label: Environment
       description: |
-        examples:
+        Please tell us the environment you're using when facing this issue. Include the versions of any helper modules you're using
+      placeholder: |
           - **OS Ver**: 20.04
           - **IDE**: Visual Studio Community 2022
-          - **SS Ver**: 1.0.0.0
+          - **StreamSharp Ver**: 1.0.0.0)
       value: |
           - OS Ver:
           - IDE:
-          - SS Ver:
+          - StreamSharp Ver:
       render: markdown
     validations:
       required: true
@@ -105,4 +104,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this bug report, and for your interest in improving our products!
