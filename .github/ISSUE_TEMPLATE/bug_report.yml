@@ -74,9 +74,9 @@ body:
 
         Please use the format **OS Ver**: [version info] - see the placeholder for more info. Each item should go on a separate line.
       placeholder: |
-          - **OS Ver**: 20.04
-          - **IDE**: Visual Studio Community 2022
-          - **StreamSharp Ver**: 1.0.0.0)
+        - **OS Ver**: 20.04
+        - **IDE**: Visual Studio Community 2022
+        - **StreamSharp Ver**: 1.0.0.0)
       render: markdown
     validations:
       required: true
