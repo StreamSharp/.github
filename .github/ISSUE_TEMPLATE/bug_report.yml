@@ -38,7 +38,7 @@ body:
     attributes:
       label: Current Behavior
       description: A concise description of what you're experiencing.
-    render: markdown
+      render: text
     validations:
       required: true
   - type: textarea
