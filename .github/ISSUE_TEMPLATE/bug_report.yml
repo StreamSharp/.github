@@ -93,15 +93,15 @@ body:
     validations:
       required: false
   - type: checkboxes
-  attributes:
-    label: Code of Conduct & Contributing
-    description: The Code of Conduct helps create a safe space for everyone. We require
-      that everyone agrees to it. The Contributing Guidelines help ensure a consistent code structure.
-    options:
-      - label: I agree to follow this project's Code of Conduct (link is in the helpful resources section)
-        required: true
-      - label: I agree to follow this project's Contributing Guidelines (link is in the helpful resources section)
-        required: true
+    attributes:
+      label: Code of Conduct & Contributing
+      description: The Code of Conduct helps create a safe space for everyone. We require
+        that everyone agrees to it. The Contributing Guidelines help ensure a consistent code structure.
+      options:
+        - label: I agree to follow this project's Code of Conduct (link is in the helpful resources section)
+          required: true
+        - label: I agree to follow this project's Contributing Guidelines (link is in the helpful resources section)
+          required: true
   - type: markdown
     attributes:
       value: |
