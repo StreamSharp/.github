@@ -23,7 +23,7 @@ This helps everyone understand the purpose of each branch.
 
 ### 3. Make Your Changes
 
-Make your changes to the codebase, adhering to the existing code style and structure. If you’re introducing new features or modifying functionality, ensure the relevant documentation (both in code comments and external docs) is updated.
+Make your changes to the codebase, adhering to the existing code style and structure. If you’re introducing new features or modifying functionality, ensure the relevant documentation (both in code comments and external docs where possible) is updated.
 
 ### 4. Submit a Pull Request
 
