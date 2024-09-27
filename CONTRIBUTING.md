@@ -43,7 +43,7 @@ Please make sure you understand the terms of the MIT License before contributing
 
 We encourage all contributors to use the [MIT License](https://opensource.org/licenses/MIT) for any helper modules they create outside of our official organization repositories. Using the MIT License ensures compatibility and ease of collaboration, making it easier for others to benefit from your work.
 
-If you need a template for your LICENSE file, you can find our license [here](https://github.com/StreamSharp/StreamSharp.Base/blob/main/LICENSE). Please remember to change the name of the copyright holder to reflect your details.
+If you need a template for your LICENSE file, you can find our license [here](https://github.com/StreamSharp/.github/blob/main/LICENSE_TEMPLATE). Please remember to change the name of the copyright holder to reflect your details.
 
 Thank you for supporting the StreamSharp ecosystem!
 
