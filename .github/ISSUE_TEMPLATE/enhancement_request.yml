@@ -1,7 +1,7 @@
 name: Enhancement Request
 description: If an existing feature is lacking in some way, please submit an issue here. New features and new helper method requests go elsewhere, click through to find out more.
 title: "[ENHANCEMENT]: "
-labels: ["enhancement"]
+labels: ["feature_update"]
 projects: []
 assignees: []
 body:
