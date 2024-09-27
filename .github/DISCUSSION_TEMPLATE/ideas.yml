@@ -1,3 +1,4 @@
+labels: ["new feature"]
 body:
   - type: markdown
     attributes:
